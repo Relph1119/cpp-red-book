@@ -1,5 +1,5 @@
 // Demonstrating scope, lifetime, and global variables
-import <iostream>;
+#include <iostream>
 
 long count1{999L};         // Global count1
 double count2{3.14};       // Global count2

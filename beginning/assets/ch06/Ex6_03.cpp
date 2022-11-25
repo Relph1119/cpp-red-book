@@ -1,5 +1,5 @@
 // Initializing pointers with strings
-import <iostream>;
+#include <iostream>
 
 int main()
 {

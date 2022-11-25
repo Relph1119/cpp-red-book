@@ -1,5 +1,5 @@
 // Delegating constructors
-import <iostream>;
+#include <iostream>
 
 class Box
 {

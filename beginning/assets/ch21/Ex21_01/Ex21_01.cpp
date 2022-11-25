@@ -1,8 +1,8 @@
 // Class template instantiation errors
-import <set>;
-import <list>;
-import <vector>;
-import <algorithm>;
+#include <set>
+#include <list>
+#include <vector>
+#include <algorithm>
 
 class MyClass { /* just a dummy class */ };
 
@@ -19,3 +19,4 @@ int main()
   std::list numbers{ 4, 1, 3, 2 };
   std::sort(begin(numbers), end(numbers));
 }
+

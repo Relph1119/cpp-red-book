@@ -1,7 +1,7 @@
 // Separating declarations and definitions of functions
 // declared in a namespace.
-import <iostream>;
-import math;
+#include <iostream>
+#include "math.h"
 
 int main()
 {

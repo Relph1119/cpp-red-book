@@ -1,6 +1,6 @@
 // Destructors in a class hierarchy
-import <iostream>;
-import carton;   // For the Carton class
+#include <iostream>
+#include "Carton.h"   // For the Carton class
 
 int main()
 {

@@ -1,8 +1,7 @@
 // Catching any exception
-import <iostream>;
-import <typeinfo>;         // For use of typeid()
-import <string_view>;      // for operator<<
-import troubles;
+#include <iostream>
+#include <typeinfo>         // For use of typeid()
+#include "Troubles.h"
 
 int main()
 {

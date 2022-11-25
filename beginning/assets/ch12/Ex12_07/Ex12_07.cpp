@@ -1,6 +1,6 @@
 // Accessing private members through getters and setters
-import <iostream>;
-import box;
+#include "Box.h"
+#include <iostream>
 
 int main()
 {

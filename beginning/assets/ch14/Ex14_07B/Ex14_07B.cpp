@@ -1,7 +1,7 @@
 // Ex14_07B - Disambiguating ambiguous member through 
 // using declarations in the derived class (CerealPack)
-import <iostream>;
-import cereal;          // For the CerealPack class
+#include <iostream>
+#include "CerealPack.h"          // For the CerealPack class
 
 int main()
 {

@@ -1,6 +1,5 @@
 // Classifying the letters in a C-style string
-import <iostream>;
-
+#include <iostream>
 #include <cctype>
 
 int main()

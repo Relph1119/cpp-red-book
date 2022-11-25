@@ -1,6 +1,6 @@
 // Comparing array<> objects and plain arrays
-import <iostream>;
-import <array>;
+#include <iostream>
+#include <array>
 
 int main()
 {

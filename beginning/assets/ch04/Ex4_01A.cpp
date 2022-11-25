@@ -1,6 +1,6 @@
 // Comparing data values (output using std::format())
-import <iostream>;
-import <format>;
+#include <iostream>
+#include <format>
 
 int main()
 {

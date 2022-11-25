@@ -1,7 +1,7 @@
 // Using a function template
-import <iostream>;
-import <format>;
-import <string>;
+#include <iostream>
+#include <format>
+#include <string>
 
 template<typename T> T larger(T a, T b);    // Function template prototype
 

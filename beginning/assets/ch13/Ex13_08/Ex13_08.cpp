@@ -1,6 +1,6 @@
 // Overloading a unary "rotate" operator
-import <iostream>;
-import box;
+#include <iostream>
+#include "Box.h"
 
 int main()
 {

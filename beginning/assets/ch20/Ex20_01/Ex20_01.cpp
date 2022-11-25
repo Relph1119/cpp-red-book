@@ -1,6 +1,6 @@
 // Working with std::deque<>
-import <iostream>;
-import <deque>;
+#include <iostream>
+#include <deque>
 
 int main()
 {

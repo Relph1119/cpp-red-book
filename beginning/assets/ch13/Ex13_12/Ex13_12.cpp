@@ -1,6 +1,6 @@
 // Defining a copy assignment operator
-import message;
-import <iostream>;
+#include "Message.h"
+#include <iostream>
 
 int main()
 {

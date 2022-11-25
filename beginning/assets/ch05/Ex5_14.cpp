@@ -2,9 +2,9 @@
 // BMI = weight/(height*height)
 // weight in kilograms, height in meters
 
-import <iostream>;
-import <format>;
-import <array>;        // For array<T,N>
+#include <iostream>
+#include <format>
+#include <array>        // For array<T,N>
 
 int main()
 {

@@ -1,9 +1,9 @@
 // Using the subscript operator
-import <iostream>;
-import <memory>;
-import <random>;       // For random number generation
-import <functional>;   // For std::bind()
-import truckload;
+#include <iostream>
+#include <memory>
+#include <random>       // For random number generation
+#include <functional>   // For std::bind()
+#include "Truckload.h"
 
 // See Chapter 12 for an explanation of this function
 auto createUniformPseudoRandomNumberGenerator(double max)

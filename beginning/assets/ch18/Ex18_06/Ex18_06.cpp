@@ -2,9 +2,8 @@
 // Remove the noexcept specifiers from Array<> to observe
 // that copying is then used instead of moving
 // (moving would be unsafe if an exception occurs).
-import array;
-import <string>;
-import <iostream>;
+#include "Array.h"
+#include <string>
 
 // Construct an Array<> of a given size, filled with some arbitrary string data
 Array<std::string> buildStringArray(const size_t size)

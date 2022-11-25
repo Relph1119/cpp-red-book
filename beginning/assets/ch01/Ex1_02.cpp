@@ -1,5 +1,5 @@
 // Using escape sequences
-import <iostream>;
+#include <iostream>
 
 int main()
 {

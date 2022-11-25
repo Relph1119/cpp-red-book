@@ -1,6 +1,5 @@
 // Using a return statement to exit a switch statement
-import <iostream>;
-
+#include <iostream>
 #include <cctype>
 
 int main()

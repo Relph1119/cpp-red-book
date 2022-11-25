@@ -1,5 +1,5 @@
 // Defining templates for functions that accept fixed-size arrays
-import <iostream>;
+#include <iostream>
 
 template <typename T, size_t N>
 T average(const T(&array)[N]);

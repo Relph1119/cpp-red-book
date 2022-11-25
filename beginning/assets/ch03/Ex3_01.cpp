@@ -1,6 +1,6 @@
 // Using the bitwise operators
-import <iostream>;
-import <format>;
+#include <iostream>
+#include <format>
 
 int main()
 {

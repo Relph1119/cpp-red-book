@@ -1,5 +1,5 @@
 // Exercising pointers to functions
-import <iostream>;
+#include <iostream>
 
 long sum(long a, long b);           // Function prototype
 long product(long a, long b);       // Function prototype

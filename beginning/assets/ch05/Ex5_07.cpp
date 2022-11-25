@@ -1,7 +1,6 @@
 // Generating multiplication tables using nested loops
-import <iostream>;
-import <format>;
-
+#include <iostream>
+#include <format>
 #include <cctype>
 
 int main()

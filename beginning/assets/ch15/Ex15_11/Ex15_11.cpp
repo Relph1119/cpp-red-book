@@ -1,9 +1,10 @@
 // Using an interface class and indirect base classes
-import <iostream>;
-import <vector>;                     // For the vector container
-import boxes;
-import vessel;
-import can;
+#include <iostream>
+#include <vector>                     // For the vector container
+#include "Box.h"                      // For the Box class
+#include "ToughPack.h"                // For the ToughPack class
+#include "Carton.h"                   // For the Carton class
+#include "Can.h"                      // for the Can class
 
 int main()
 {

@@ -1,6 +1,6 @@
 // Using the conditional operator to select output.
-import <iostream>;
-import <format>;
+#include <iostream>
+#include <format>
 
 int main()
 {

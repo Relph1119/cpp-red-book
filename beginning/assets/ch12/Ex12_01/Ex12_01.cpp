@@ -1,5 +1,5 @@
 // Defining a class constructor
-import <iostream>;
+#include <iostream>
 
 // Class to represent a box
 class Box

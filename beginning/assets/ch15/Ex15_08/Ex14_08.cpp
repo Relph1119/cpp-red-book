@@ -1,5 +1,6 @@
 // Calling virtual functions from constructors and destructors
-import boxes;
+#include "Box.h"
+#include "ToughPack.h"
 
 int main()
 {

@@ -1,6 +1,6 @@
 // Using a while loop to calculate the sum of integers from 1 to n and n!
-import <iostream>;
-import <format>;
+#include <iostream>
+#include <format>
 
 int main()
 {

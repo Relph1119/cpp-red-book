@@ -1,7 +1,7 @@
 // Using the named comparison functions
-import <compare>;  // Required when using operator <=> (even for fundamental types)
-import <format>;
-import <iostream>;
+#include <compare>  // Required when using operator <=> (even for fundamental types)
+#include <format>
+#include <iostream>
 
 int main()
 {

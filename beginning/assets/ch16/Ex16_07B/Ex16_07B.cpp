@@ -1,9 +1,8 @@
 // Exceptions may result in resource leaks!
-import <iostream>;
-import troubles;
-import raii;
-
+#include <iostream>
 #include <cmath>                    // For std::sqrt()
+#include "Troubles.h"
+#include "DoubleArrayRAII.h"
 
 double computeValue(size_t x);         // A function to compute a single value
 double* computeValues(size_t howMany); // A function to compute an array of values

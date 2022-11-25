@@ -1,6 +1,6 @@
 // Ex14_07A - Disambiguating ambiguous member inheritance through casting
-import <iostream>;
-import cereal;             // For the CerealPack class
+#include <iostream>
+#include "CerealPack.h"             // For the CerealPack class
 
 int main()
 {

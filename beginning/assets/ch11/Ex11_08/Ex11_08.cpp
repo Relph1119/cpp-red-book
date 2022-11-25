@@ -1,12 +1,9 @@
 // Using using declarations and using directives
-// (Note: example was not named in the text)
-import <iostream>;
-import squaring;
+#include <iostream>
+#include "squaring.h"
 
 /* Make names from the math namespace available locally */
-// Note: text uses hypot(), but this causes ambiguities with hypot() 
-// function of <cmath> with Visual Studio
-auto hypotenuse(const auto& x, const auto& y)
+auto my_hypot(const auto& x, const auto& y) // Renamed to my_hypot to avoid clashes with hypot() function in <cmath>
 {
   using namespace math;
   // Or:
@@ -20,5 +17,5 @@ int main()
   std::cout << "math::sqrt2 has the value " << math::sqrt2 << std::endl;
   std::cout << "This should be 0: " << (math::sqrt2 - std::numbers::sqrt2) << std::endl;
   std::cout << "This should be 2: " << math::square(math::sqrt2) << std::endl;
-  std::cout << "This should be 5: " << hypotenuse(3, 4) << std::endl;
+  std::cout << "This should be 5: " << my_hypot(3, 4) << std::endl;
 }

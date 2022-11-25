@@ -1,5 +1,6 @@
-module truckload;
-import <iostream>;
+#include "Truckload.h"
+
+#include <iostream>
 
 // Constructor - one Box (moved to source file to gain access to definition of Package)
 Truckload::Truckload(SharedBox box)          

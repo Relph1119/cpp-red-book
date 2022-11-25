@@ -1,7 +1,7 @@
 // Implementing a less-than operator
-import <iostream>;
-import <vector>;
-import box;
+#include <iostream>
+#include <vector>
+#include "Box.h"
 
 int main()
 {

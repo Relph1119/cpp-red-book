@@ -4,8 +4,8 @@
 // by expressing the copy assignment operator in terms of the copy constructor.
 // Less duplication means less room for error, less maintenance overhead, etc.
 // Note: this solution is hinted at in a Note in the text, but not explicitly named.
-import message;
-import <iostream>;
+#include "Message.h"
+#include <iostream>
 
 int main()
 {

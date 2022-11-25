@@ -1,6 +1,6 @@
 // Using return type deduction with templates
-import <iostream>;
-import <string>;
+#include <iostream>
+#include <string>
 
 // Template for functions to return the larger of two values
 // Supports implicit converion of differently-typed arguments

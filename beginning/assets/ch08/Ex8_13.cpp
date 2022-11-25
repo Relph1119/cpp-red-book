@@ -1,8 +1,8 @@
 // Returning a pointer
-import <iostream>;
-import <format>;
-import <string>;
-import <array>;                  // for std::size()
+#include <iostream>
+#include <format>
+#include <string>
+#include <array>                  // for std::size()
 
 void show_data(const double data[], size_t count = 1, 
                const std::string& title = "Data Values",

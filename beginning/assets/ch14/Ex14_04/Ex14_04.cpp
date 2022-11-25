@@ -1,7 +1,7 @@
 // Defaulting the default constructor in a derived class (working version)
-import <iostream>;
-import box;                 // For the Box class
-import carton;              // For the Carton class
+#include <iostream>
+#include "Box.h"                 // For the Box class
+#include "Carton.h"              // For the Carton class
 
 int main()
 {

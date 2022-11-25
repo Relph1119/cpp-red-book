@@ -1,8 +1,8 @@
 // Your first algorithms: std::min_element() and max_element(),
 // this time using the range-based versions.
-import <iostream>;
-import <algorithm>;
-import <vector>;
+#include <iostream>
+#include <algorithm>
+#include <vector>
 #include <cmath>    // For std::abs()
 
 int main()

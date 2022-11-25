@@ -1,9 +1,8 @@
 // Exercising the use of stateless lambda expressions as callback functions
-import <iostream>;
-import <string>;
-import <string_view>;
-import <vector>;
-import optimum;
+#include <iostream>
+#include <string>
+#include <string_view>
+#include "Optimum.h"
 
 int main()
 {

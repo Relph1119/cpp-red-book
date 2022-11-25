@@ -1,8 +1,7 @@
 // Rethrowing exceptions
-import <iostream>;
-import <typeinfo>;
-import <string_view>;   // for operator<<
-import troubles;
+#include <iostream>
+#include <typeinfo>
+#include "Troubles.h"
 
 int main()
 {

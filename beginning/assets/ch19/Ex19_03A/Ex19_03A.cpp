@@ -1,8 +1,7 @@
 // Exercising the use of standard functors
-import <iostream>;
-import <functional>;
-import <vector>;
-import optimum;
+#include <iostream>
+#include <functional>
+#include "Optimum.h"
 
 int main()
 {

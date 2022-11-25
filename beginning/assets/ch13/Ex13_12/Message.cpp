@@ -1,6 +1,4 @@
-module;
-#include <cstring>  // For std::strlen() and std::strcpy()
-module message;
+#include "Message.h"
 
 Message& Message::operator=(const Message& message)
 {

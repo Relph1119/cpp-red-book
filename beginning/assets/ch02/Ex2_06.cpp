@@ -1,7 +1,7 @@
 // Formatting numeric values with std::format() 
-import <iostream>;
-import <format>;
-import <numbers>;
+#include <iostream>
+#include <format>
+#include <numbers>
 
 int main()
 {

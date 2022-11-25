@@ -1,6 +1,6 @@
-module truckload;
+#include "Truckload.h"
 
-import <iostream>;
+#include <iostream>
 
 // Definition of the nested class member
 // Since this member is private, 

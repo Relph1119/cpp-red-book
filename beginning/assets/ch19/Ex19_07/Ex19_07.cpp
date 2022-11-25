@@ -1,8 +1,7 @@
 // Using a lambda expression from inside a member function (see Finder.cpp)
-import <iostream>;
-import <vector>;
-import optimum;
-import finder;
+#include <iostream>
+#include "Optimum.h"
+#include "Finder.h"
 
 int main()
 {

@@ -1,11 +1,12 @@
-module;
+#include "math.h"
 #include <cmath>    // For std::pow(), std::sqrt(), ...
-module math;
+#include <limits>   // For std::numeric_limits<double>::quiet_NaN()
+#include <vector>   // For std::numeric_limits<double>::quiet_NaN()
 
-import <limits>;   // For std::numeric_limits<double>::quiet_NaN()
-import <vector>;   // For std::numeric_limits<double>::quiet_NaN()
-
-void quicksort(std::vector<double>& data); // See Chapter 8
+namespace
+{
+  void quicksort(std::vector<double>& data); // See Chapter 8
+}
 
 // Option 1: define in nested namespace block (compact syntax)
 namespace math::averages
@@ -87,33 +88,36 @@ namespace math
   }
 }
 
-void quicksort(std::vector<double>& data, size_t start, size_t end);
-void quicksort(std::vector<double>& data)
+namespace
 {
-  if (!data.empty())
-    quicksort(data, 0, data.size() - 1);
-}
-
-void quicksort(std::vector<double>& data, size_t start, size_t end)
-{
-  // start index must be less than end index for 2 or more elements
-  if (!(start < end))
-    return;
-
-  // Choose middle value to partition set, 
-  // and move it to the front of the current range
-  std::swap(data[start], data[(start + end) / 2]);
-  
-  // Compare all other values against chosen value at index start
-  size_t current{ start };
-  for (size_t i{ start + 1 }; i <= end; i++)
+  void quicksort(std::vector<double>& data, size_t start, size_t end);
+  void quicksort(std::vector<double>& data)
   {
-    if (data[i] < data[start]) // Is the value less than chosen value?
-      std::swap(data[++current], data[i]); // Yes, so swap to the left
+    if (!data.empty())
+      quicksort(data, 0, data.size() - 1);
   }
 
-  std::swap(data[start], data[current]); // Swap chosen and last swapped words
+  void quicksort(std::vector<double>& data, size_t start, size_t end)
+  {
+    // start index must be less than end index for 2 or more elements
+    if (!(start < end))
+      return;
 
-  if (current > start) quicksort(data, start, current - 1); // Sort left subset if exists
-  if (end > current + 1) quicksort(data, current + 1, end); // Sort right subset if exists
+    // Choose middle value to partition set, 
+    // and move it to the front of the current range
+    std::swap(data[start], data[(start + end) / 2]);
+
+    // Compare all other values against chosen value at index start
+    size_t current{ start };
+    for (size_t i{ start + 1 }; i <= end; i++)
+    {
+      if (data[i] < data[start]) // Is the value less than chosen value?
+        std::swap(data[++current], data[i]); // Yes, so swap to the left
+    }
+
+    std::swap(data[start], data[current]); // Swap chosen and last swapped words
+
+    if (current > start) quicksort(data, start, current - 1); // Sort left subset if exists
+    if (end > current + 1) quicksort(data, current + 1, end); // Sort right subset if exists
+  }
 }

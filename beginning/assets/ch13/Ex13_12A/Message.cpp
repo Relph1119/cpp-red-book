@@ -1,6 +1,4 @@
-module;
-#include <cstring>  // For std::strlen() and std::strcpy()
-module message;
+#include "Message.h"
 
 Message::Message(const Message& message)
   : Message{ message.m_text }  // By far easiest and preferred option: forward to existing constructor!

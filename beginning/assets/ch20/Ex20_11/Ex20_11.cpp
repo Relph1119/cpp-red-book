@@ -1,7 +1,7 @@
 // Your first algorithms: std::min_element() and max_element()
-import <iostream>;
-import <algorithm>;
-import <vector>;
+#include <iostream>
+#include <algorithm>
+#include <vector>
 #include <cmath>    // For std::abs()
 
 int main()

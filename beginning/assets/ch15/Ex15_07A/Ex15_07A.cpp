@@ -1,8 +1,10 @@
 // Calling the base class version of a virtual function (see ToughPack::volume())
-import <iostream>;
-import <memory>;                                // For smart pointers
-import <vector>;                                // For vector
-import boxes;
+#include <iostream>
+#include <memory>                                // For smart pointers
+#include <vector>                                // For vector
+#include "Box.h"                                 // For the Box class
+#include "ToughPack.h"                           // For the ToughPack class
+#include "Carton.h"                              // For the Carton class
 
 int main()
 {

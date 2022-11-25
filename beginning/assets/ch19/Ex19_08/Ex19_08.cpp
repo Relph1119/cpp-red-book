@@ -1,6 +1,6 @@
 // Using the std::function<> template
-import <iostream>;
-import <functional>;
+#include <iostream>
+#include <functional>
 #include <cmath>            // for std::abs()
 
 // A global less() function

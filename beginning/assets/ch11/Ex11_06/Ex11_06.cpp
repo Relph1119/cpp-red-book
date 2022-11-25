@@ -1,7 +1,7 @@
 // Defining and using a namespace
 
-import <iostream>;
-import <numbers>;
+#include <iostream>
+#include <numbers>
 
 namespace math
 {

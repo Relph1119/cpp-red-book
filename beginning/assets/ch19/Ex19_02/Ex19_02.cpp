@@ -1,8 +1,7 @@
 // Exercising the use of function pointers as callback functions
-import <iostream>;
-import <string>;
-import <vector>;
-import optimum;
+#include <iostream>
+#include <string>
+#include "Optimum.h"
 
 // Comparison function prototypes:
 bool less(const int&, const int&);
@@ -11,7 +10,7 @@ bool longer(const std::string&, const std::string&);
 
 int main()
 {
-  std::vector numbers{ 91, 18, 92, 22, 13, 43 };
+  std::vector<int> numbers{ 91, 18, 92, 22, 13, 43 };
   std::cout << "Minimum element: " << *findOptimum(numbers, less) << std::endl;
   std::cout << "Maximum element: " << *findOptimum(numbers, greater<int>) << std::endl;
 

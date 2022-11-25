@@ -1,6 +1,5 @@
 // Multiple case actions
-import <iostream>;
-
+#include <iostream>
 #include <cctype>
 
 int main()

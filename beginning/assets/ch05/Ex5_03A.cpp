@@ -1,7 +1,7 @@
 // Floating-point control in a for loop
-import <format>;
-import <iostream>;
-import <numbers>;
+#include <format>
+#include <iostream>
+#include <numbers>
 
 int main()
 {

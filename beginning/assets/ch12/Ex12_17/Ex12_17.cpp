@@ -1,7 +1,6 @@
 // Using a linked list
-import box.random;
-import truckload;
-import <iostream>;
+#include "RandomBoxes.h"
+#include "Truckload.h"
 
 int main()  
 {
