@@ -5,9 +5,9 @@
 
 int main() {
     // 定义输出格式
-    const auto format_header{"{:20} {:35} {}\n"};
-    const auto format_precision5{"{:20} {:35} {:.5f}...\n"};
-    const auto format_precision3{"{:20} {:35} {:.3f}...\n"};
+    constexpr auto format_header{"{:20} {:35} {}\n"};
+    constexpr auto format_precision5{"{:20} {:35} {:.5f}...\n"};
+    constexpr auto format_precision3{"{:20} {:35} {:.3f}...\n"};
 
     std::cout << std::format(format_header, "Constant", "Description", "Approximation");
     std::cout

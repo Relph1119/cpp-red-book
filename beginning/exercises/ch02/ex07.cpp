@@ -5,10 +5,10 @@
 
 int main() {
     // 定义表头打印格式
-    const auto format_header{"{:20} {:35} {}\n"};
-    const auto format_precision5{"{:20} {:35} {:.5f}...\n"};
-    const auto format_precision3{"{:20} {:35} {:.3f}...\n"};
-    const auto format_extra_row{"{:20} {:35} {:.5E}...\n"};
+    constexpr auto format_header{"{:20} {:35} {}\n"};
+    constexpr auto format_precision5{"{:20} {:35} {:.5f}...\n"};
+    constexpr auto format_precision3{"{:20} {:35} {:.3f}...\n"};
+    constexpr auto format_extra_row{"{:20} {:35} {:.5E}...\n"};
 
     std::cout << std::format(format_header, "Constant", "Description", "Approximation");
     std::cout
