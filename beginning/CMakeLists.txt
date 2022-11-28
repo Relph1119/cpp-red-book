@@ -33,3 +33,13 @@ add_executable(ex-04-05 exercises/ch04/ex05.cpp)
 add_executable(ex-04-06 exercises/ch04/ex06.cpp)
 add_executable(ex-04-07 exercises/ch04/ex07.cpp)
 add_executable(ex-04-08 exercises/ch04/ex08.cpp)
+
+# 第5章练习
+add_executable(ex-05-01 exercises/ch05/ex01.cpp)
+add_executable(ex-05-02 exercises/ch05/ex02.cpp)
+add_executable(ex-05-03 exercises/ch05/ex03.cpp)
+add_executable(ex-05-04 exercises/ch05/ex04.cpp)
+add_executable(ex-05-05 exercises/ch05/ex05.cpp)
+add_executable(ex-05-06 exercises/ch05/ex06.cpp)
+add_executable(ex-05-07 exercises/ch05/ex07.cpp)
+add_executable(ex-05-08 exercises/ch05/ex08.cpp)
