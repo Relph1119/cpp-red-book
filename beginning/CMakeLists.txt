@@ -42,7 +42,6 @@ add_executable(ex-05-04 exercises/ch05/ex04.cpp)
 add_executable(ex-05-05 exercises/ch05/ex05.cpp)
 add_executable(ex-05-06 exercises/ch05/ex06.cpp)
 add_executable(ex-05-07 exercises/ch05/ex07.cpp)
-<<<<<<< HEAD
 add_executable(ex-05-08 exercises/ch05/ex08.cpp)
 
 # 第6章练习
@@ -63,6 +62,3 @@ add_executable(ex-07-06 exercises/ch07/ex06.cpp)
 add_executable(ex-07-07 exercises/ch07/ex07.cpp)
 add_executable(ex-07-08 exercises/ch07/ex08.cpp)
 add_executable(ex-07-09 exercises/ch07/ex09.cpp)
-=======
-add_executable(ex-05-08 exercises/ch05/ex08.cpp)
->>>>>>> parent of acde118 (阅读C++20入门实践第5章，并完成练习题)
